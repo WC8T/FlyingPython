@@ -1,0 +1,6 @@
+// For Traquito tracking site Slot 2
+
+{ "name": "Humidity",     "unit": "Percent",  "lowValue":   0,    "highValue": 100,    "stepSize": 1},
+{ "name": "UV",           "unit": "mwpcm2",   "lowValue":   0,    "highValue":    16,    "stepSize":  0.5   },
+{ "name": "Luminosity",   "unit": "klx",      "lowValue":   0,    "highValue":   120,    "stepSize":  2   },
+{ "name": "Pressure",     "unit": "mBar",     "lowValue":   0,  "highValue":     1100,  "stepSize":  0.5 },

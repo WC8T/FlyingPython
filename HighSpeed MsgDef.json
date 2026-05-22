@@ -1,0 +1,4 @@
+// For Traquito Tracking Web Site. Extended Speed Resolution for slot 3
+
+{ "name": "HighSpeed",    "unit": "MPH",      "lowValue":   0,    "highValue": 300,  "stepSize": 1},
+
