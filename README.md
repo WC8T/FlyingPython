@@ -22,8 +22,9 @@ POWER DRAW NOTES:
 The idea is to see if the flexible MPT3.6-150 solar panels will work ok.  They work fine with the C code 
 using diodes with just the traquito and RP Pico.  Rated output is 3.6 volts and 100mA although in the Idaho sun I often see 4.8 volts.
 Our configuration has three solar panels in a sort of triangular arangement so hopefully one
-catches the sun.  I still need to test without diodes to see if the draw from the shaded panels is a problem.  
-There is a MPT4.8-150 - 4.8 volts at 100mA
+catches the sun.  I tested the panels without diodes and they seem to work fine.  The is some load from
+the shaded panels but not enough to matter.
+There is a bigger panel: MPT4.8-150 - 4.8 volts at 100mA
 
 The SEN0501 sensor draws very little of the power.
 
@@ -45,5 +46,10 @@ GPS on, Transmitter transmitting: 83mA
 
 (The powered GPS antenna is drawing from a pin on the GPS as shown in the GPS datasheet.  This
 allows for testing indoors on the bench with the antenna in a window.)
+
+Finally launched a balloon with this code to test on 20m channel 298 KI7KDB (our club call sign) on 
+2026-06-18 (ignore prior data as it is from testing on my front porch).
+So far its doing well as far as the electronics go so I'm pretty happy with that.  There is a snag
+with slot 3 and its just reporting 0 so I'll have to look into it in the fall.
 
 End of: README.md
