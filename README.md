@@ -50,6 +50,6 @@ allows for testing indoors on the bench with the antenna in a window.)
 Finally launched a balloon with this code to test on 20m channel 298 KI7KDB (our club call sign) on 
 2026-06-18 (ignore prior data as it is from testing on my front porch).
 So far its doing well as far as the electronics go so I'm pretty happy with that.  There is a snag
-with slot 3 and its just reporting 0 so I'll have to look into it in the fall.
+with slot 3 data because I used the variable speed instead of RMCSpeed.  I'll fix it in the fall.
 
 End of: README.md
